@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68084AD12712ECB500DE4FE3 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 68084ACE2712ECB400DE4FE3 /* heart.png */; };
+		68084AD22712ECB500DE4FE3 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68084ACF2712ECB400DE4FE3 /* smile.png */; };
+		68084AD32712ECB500DE4FE3 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 68084AD02712ECB500DE4FE3 /* add.png */; };
+		68084AD62712ED8200DE4FE3 /* pink_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 68084AD52712ED8200DE4FE3 /* pink_heart.png */; };
+		68084AD82712EDA100DE4FE3 /* AddPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68084AD72712EDA100DE4FE3 /* AddPage.storyboard */; };
+		68084ADA2712EDA800DE4FE3 /* ColorPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68084AD92712EDA800DE4FE3 /* ColorPicker.storyboard */; };
+		68084ADC2712EDB200DE4FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68084ADB2712EDB200DE4FE3 /* Main.storyboard */; };
+		68084ADE2712EDBF00DE4FE3 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68084ADD2712EDBF00DE4FE3 /* utils.swift */; };
 		68E8C14F2711A67C0061A4CA /* PlatanusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8C14E2711A67C0061A4CA /* PlatanusApp.swift */; };
 		68E8C1512711A67C0061A4CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E8C1502711A67C0061A4CA /* ContentView.swift */; };
 		68E8C1532711A6840061A4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E8C1522711A6840061A4CA /* Assets.xcassets */; };
@@ -34,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68084ACE2712ECB400DE4FE3 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		68084ACF2712ECB400DE4FE3 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		68084AD02712ECB500DE4FE3 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		68084AD42712ED2B00DE4FE3 /* AaKeAiNORiXiZhongWen2WanZi-2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AaKeAiNORiXiZhongWen2WanZi-2.ttf"; sourceTree = "<group>"; };
+		68084AD52712ED8200DE4FE3 /* pink_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink_heart.png; sourceTree = "<group>"; };
+		68084AD72712EDA100DE4FE3 /* AddPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPage.storyboard; sourceTree = "<group>"; };
+		68084AD92712EDA800DE4FE3 /* ColorPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ColorPicker.storyboard; sourceTree = "<group>"; };
+		68084ADB2712EDB200DE4FE3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		68084ADD2712EDBF00DE4FE3 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		68E8C14B2711A67C0061A4CA /* Platanus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platanus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E8C14E2711A67C0061A4CA /* PlatanusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatanusApp.swift; sourceTree = "<group>"; };
 		68E8C1502711A67C0061A4CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68084AC92712EC5A00DE4FE3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				68084AD02712ECB500DE4FE3 /* add.png */,
+				68084ACE2712ECB400DE4FE3 /* heart.png */,
+				68084ACF2712ECB400DE4FE3 /* smile.png */,
+				68084AD42712ED2B00DE4FE3 /* AaKeAiNORiXiZhongWen2WanZi-2.ttf */,
+				68084AD52712ED8200DE4FE3 /* pink_heart.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		68E8C1422711A67C0061A4CA = {
 			isa = PBXGroup;
 			children = (
+				68084AC92712EC5A00DE4FE3 /* Resource */,
 				68E8C14D2711A67C0061A4CA /* Platanus */,
 				68E8C15E2711A6850061A4CA /* PlatanusTests */,
 				68E8C1682711A6850061A4CA /* PlatanusUITests */,
@@ -94,6 +124,10 @@
 		68E8C14D2711A67C0061A4CA /* Platanus */ = {
 			isa = PBXGroup;
 			children = (
+				68084AD92712EDA800DE4FE3 /* ColorPicker.storyboard */,
+				68084ADB2712EDB200DE4FE3 /* Main.storyboard */,
+				68084AD72712EDA100DE4FE3 /* AddPage.storyboard */,
+				68084ADD2712EDBF00DE4FE3 /* utils.swift */,
 				68E8C14E2711A67C0061A4CA /* PlatanusApp.swift */,
 				68E8C1502711A67C0061A4CA /* ContentView.swift */,
 				68E8C1522711A6840061A4CA /* Assets.xcassets */,
@@ -231,7 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68084AD32712ECB500DE4FE3 /* add.png in Resources */,
+				68084AD82712EDA100DE4FE3 /* AddPage.storyboard in Resources */,
+				68084ADA2712EDA800DE4FE3 /* ColorPicker.storyboard in Resources */,
+				68084AD12712ECB500DE4FE3 /* heart.png in Resources */,
 				68E8C1562711A6840061A4CA /* Preview Assets.xcassets in Resources */,
+				68084AD22712ECB500DE4FE3 /* smile.png in Resources */,
+				68084ADC2712EDB200DE4FE3 /* Main.storyboard in Resources */,
+				68084AD62712ED8200DE4FE3 /* pink_heart.png in Resources */,
 				68E8C1532711A6840061A4CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68084ADE2712EDBF00DE4FE3 /* utils.swift in Sources */,
 				68E8C1512711A67C0061A4CA /* ContentView.swift in Sources */,
 				68E8C14F2711A67C0061A4CA /* PlatanusApp.swift in Sources */,
 			);
@@ -425,6 +467,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -455,6 +498,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
